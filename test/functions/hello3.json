@@ -1,0 +1,6 @@
+{
+	"function": "helloworld34567",
+    "platform": "AWS Lambda",
+    "source": "../nodejs_template",
+    "endpoint": ""
+}
