@@ -2,10 +2,12 @@
     "callWithCLI": true,
     "callAsync": false,
     "memorySettings": [],
-    "payloads": [{}],
+    "payloads": [{
+        "name": "Nello"
+    }],
 
-    "runs": 100,
-    "threads": 100,
+    "runs": 1,
+    "threads": 1,
     "iterations": 1,
     "sleepTime": 5,
     "randomSeed": 42,
@@ -27,7 +29,7 @@
     "removeDuplicateContainers": false,
     "overlapFilter": "functionName",
 
-    "openCSV": false,
+    "openCSV": true,
     "combineSheets": false,
     "warmupBuffer": 0
 } 

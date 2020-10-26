@@ -1,0 +1,6 @@
+{
+	"function": "pelloWorld",
+    "platform": "AWS Lambda",
+    "source": "../pello_world",
+    "endpoint": ""
+}

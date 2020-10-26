@@ -2,17 +2,21 @@
     "callWithCLI": true,
     "callAsync": false,
     "memorySettings": [],
-    "payloads": [
-        {}
-    ],
+    "payloads": [{
+        "threads": 2,
+        "calcs": 1000,
+        "sleep": 0,
+        "loops": 1000,
+        "arraySize": 1
+    }],
 
-    "runs": 100,
-    "threads": 100,
+    "runs": 10,
+    "threads": 10,
     "iterations": 1,
     "sleepTime": 5,
     "randomSeed": 42,
 
-    "outputGroups": ["cpuType", "containerID", "vmID", "zAll"],
+    "outputGroups": [],
     "outputRawOfGroup": [],
     "showAsList": [],
     "showAsSum": ["newcontainer"],
@@ -31,12 +35,7 @@
 
     "openCSV": true,
     "combineSheets": false,
-    "warmupBuffer": 0,
-    
-    "passPayloads": true,
-    "transitions": {
-      "message": "name"
-    }
+    "warmupBuffer": 0
 } 
 
 

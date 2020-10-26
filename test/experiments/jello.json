@@ -2,19 +2,17 @@
     "callWithCLI": true,
     "callAsync": false,
     "memorySettings": [],
-    "payloads": [
-        { "name": "Bob" },
-        { "name": "Joe" },
-        { "name": "Steve" }
-    ],
+    "payloads": [{
+        "name": "Jello"
+    }],
 
-    "runs": 100,
-    "threads": 100,
+    "runs": 3,
+    "threads": 1,
     "iterations": 1,
     "sleepTime": 5,
     "randomSeed": 42,
 
-    "outputGroups": ["cpuType", "containerID", "vmID", "zAll"],
+    "outputGroups": [],
     "outputRawOfGroup": [],
     "showAsList": [],
     "showAsSum": ["newcontainer"],

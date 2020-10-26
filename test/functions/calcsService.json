@@ -1,0 +1,6 @@
+{
+	"function": "calcsServiceTutorial",
+    "platform": "AWS Lambda",
+    "source": "../calcs_service",
+    "endpoint": ""
+}

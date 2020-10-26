@@ -1,0 +1,6 @@
+{
+	"function": "nelloWorld",
+    "platform": "AWS Lambda",
+    "source": "../nello_world",
+    "endpoint": ""
+}

@@ -1,0 +1,6 @@
+{
+	"function": "jelloWorld",
+    "platform": "AWS Lambda",
+    "source": "../jello_world",
+    "endpoint": ""
+}

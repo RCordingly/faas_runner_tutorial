@@ -23,4 +23,8 @@ from decimal import Decimal
 from threading import Thread
 
 def transition_function(index, functions, experiments, payloads, lastPayload):
-    return index + 1
+
+    if (lastPayload["message"] == "Jello End"):
+        index += 1
+
+    return (index + 1, functions, experiments, payloads, lastPayload)
